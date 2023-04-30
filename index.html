@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+    </style>
+</head>
+<body>
+<h1>BMI Calculator</h1>
+<p>โปรแกรมคำนวนค่าดัชนีมวลกาย
+</p>
+<div class="row">
+    <div class="column"><h2>Your weight (kg.)</h2>
+        <input id="weight" type="number" required/></div>
+    <div class="column"> <h2>Your height(cm.)</h2>
+        <input id="height" type="number" required/></div>
+</div>
+
+<button type="button" id="convert">Calculate BMI</button>
+<h3>Result</h3>
+<p id="result"></p>
+<h3>Range</h3>
+<p id="range"></p>
+<script src="app.js"></script>
+
+</body>
+</html>
